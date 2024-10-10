@@ -1,10 +1,9 @@
 import React, {useEffect, useState} from "react";
 import LinkForm from './LinkForm';
 import { db } from "../firebase";
-import { collection, addDoc, getDocs, onSnapshot, doc, deleteDoc, updateDoc} from "firebase/firestore";
-import { toast } from "react-toastify";
+import { collection, addDoc, onSnapshot, doc, deleteDoc, updateDoc} from "firebase/firestore";
 import 'react-toastify/dist/ReactToastify.css'; // Importar estilos
-import Swal from "sweetalert2";
+import Swal from "sweetalert2"; //Importar alertas 
 
 
 
